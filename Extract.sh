@@ -19,3 +19,4 @@ D=$(awk '{if (NR=='${B}') print}' rmsd.txt);
 echo "The energy for the structure is ${C}";
 echo "The rmsd of the structure is ${D}";
 echo "This is a check"
+echo "This change was made in the test branch"
